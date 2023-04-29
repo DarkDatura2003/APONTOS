@@ -1,0 +1,166 @@
+*{border: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+#inicio{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    
+    background: linear-gradient(180deg, #000000 0%, rgba(32, 49, 53, 0.78) 100%);
+}
+#inicio2{
+    position: relative;
+width: 100%;
+height: 1080px;
+
+background: linear-gradient(180deg, rgba(32, 49, 53, 0.78) 0%, #000000 100%);
+}
+#caixabranca{
+width: 100%; /*Largura da caixa*/
+height: 82px; /*Altura da caixa como o minimo possivel*/
+padding: 10px; /*Borda interna*/
+background: #FFFFFF; /*BG*/
+margin-top: 100px;/*Margin na parte de cima*/
+text-align: left; /*Alinha no texto no centro*/
+position: absolute;
+font-family: 'Inter';
+font-style: light;
+font-weight: 300;
+font-size: 32px;
+line-height: 63px;
+}
+#caixavermelha{
+position: absolute;
+width: 349px;
+height: 55px;
+left: 0px;
+top: 0px;
+background: rgba(250, 0, 0, 0.19);
+text-align: center;
+font-style: light;
+font-weight: 300;
+font-size: 32px;
+line-height: 55px;
+color: #FFFFFF;
+}
+#caixacinza{
+position: absolute;
+width: 100%;
+height: 55px;
+left: 0px;
+top: 0px;
+background: rgba(255, 255, 255, 0.05);
+text-align: right;
+font-family: 'Inter';
+font-style: light;
+font-weight: 200;
+font-size: 32px;
+line-height: 55px;
+word-spacing: 50px;
+color: #FFFFFF;
+
+}
+p{
+position: absolute;
+width: 1186px;
+height: 283px;
+left: 50px;
+top: 286px; 
+font-family: 'Inter';
+font-style: light;
+font-weight: 200;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+    
+}
+a{
+    color: #21626d
+}
+img{
+    box-sizing: border-box;
+position: absolute;
+max-width: 302px;
+max-height: 464px;
+width: auto;
+height: auto;
+left: 934px;
+top: 556px;
+background: url(iamgem.png);
+border: 2px solid #000000;
+}
+#pag1{
+    position: absolute;
+width: 874px;
+height: 358px;
+left: 50px;
+top: 613px;
+
+font-family: 'Inter';
+font-style: light;
+font-weight: 200;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+}
+#pag2{
+    position: absolute;
+width: 1201px;
+height: 250px;
+left: 49px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: light;
+font-weight: 200;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+#pag3{
+position: absolute;
+width: 687px;
+height: 361px;
+left: 582px;
+top: 314px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+}
+#dimitri{
+box-sizing: border-box;
+position: absolute;
+width: 486px;
+height: 450px;
+width: auto;
+height: auto;
+left: 74px;
+top: 302px;
+background: url(dimitri.jpg);
+border: 2px solid #000000;
+}
+i{
+position: absolute;
+width: 357px;
+height: 19px;
+left: 879px;
+top: 1042px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
